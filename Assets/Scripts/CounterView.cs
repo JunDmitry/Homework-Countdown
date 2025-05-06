@@ -1,10 +1,10 @@
 using TMPro;
 using UnityEngine;
 
-public class CountdownView : MonoBehaviour
+public class CounterView : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _text;
-    [SerializeField] private Countdown _countdown;
+    [SerializeField] private Counter _countdown;
 
     private void Start()
     {
