@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 1283990356}
   - component: {fileID: 1283990357}
   m_Layer: 5
-  m_Name: Countdown
+  m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1283990355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4fa14cff3573a64bb656ed84991d255, type: 3}
+  m_Script: {fileID: 11500000, guid: 73c2cd706b246c34c8a697ef0c0eca5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _delay: 0.5

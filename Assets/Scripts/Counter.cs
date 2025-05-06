@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class Countdown : MonoBehaviour
+public class Counter : MonoBehaviour
 {
     [SerializeField, Min(0.02f)] private float _delay = 0.02f;
 
@@ -30,11 +30,11 @@ public class Countdown : MonoBehaviour
         }
         else
         {
-            _iterationCoroutine = StartCoroutine(IterateCount());
+            _iterationCoroutine = StartCoroutine(IncreaseCount());
         }
     }
 
-    private IEnumerator IterateCount()
+    private IEnumerator IncreaseCount()
     {
         while (enabled)
         {
